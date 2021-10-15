@@ -27,7 +27,7 @@ exports.getAllItemsHandler = async (event) => {
     const items = data.Items;
 
     const response = {
-        statusCode: 200,
+        statusCode: 202,
         body: JSON.stringify(items)
     };
 
